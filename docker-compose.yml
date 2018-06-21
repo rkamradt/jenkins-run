@@ -12,9 +12,9 @@ services:
   jenkins:
     image: jenkinsci/blueocean
     volumes:
-     - ./jenkins-data:/var/jenkins_home
-     - /var/run/docker.sock:/var/run/docker.sock
-     - ~:/home
+     - ./jenkins-data:/var/jenkins_home:Z
+     - /var/run/docker.sock:/var/run/docker.sock:Z
+     - ~:/home:Z
     networks:
      - network
 networks:
