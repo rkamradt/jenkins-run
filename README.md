@@ -1,6 +1,6 @@
-# RLKSrRun
+# jenkins-run
 
-Scripts to start the rlksr server
+Scripts to start Jenkins on a cloud server
 
 To run:
   docker-compose up
